@@ -7,6 +7,7 @@ void ejercicio2b();
 void ejercicio2c();
 void ejercicio2d();
 void nestedIf ();
+void ejercicio3();
 
 int main()
 {
@@ -14,7 +15,8 @@ int main()
     //ejercicio2b();
     //ejercicio2c();
     //ejercicio2d();
-    nestedIf ();
+    //nestedIf ();
+    ejercicio3();
 
     return 0;
 }
@@ -100,13 +102,37 @@ void nestedIf ()
 
     if (grado == 'A')
 	if (peso > 35){
-	    bin = 1
+	    bin = 1;
 	    t = s + a;
 	}
 
-    int suma = 0, conteo, grado, fallo;
+    int suma = 0, conteo, fallo;
 
     if (conteo < 5)
 	if (grado < 50)
 	    fallo = fallo + 1;
+}
+
+void ejercicio3()
+{
+    
+    int a, b;
+
+    cout << "\nIngrese un valor para \n\ta : ";
+    cin >> a;
+    cout << "\n\n\tb : ";
+    cin >> b;
+
+    if (a > b)
+	cout << "\nEl primer numero es mayor\n";
+    else
+	cout << "\nEl primer numero es menor\n";
+
+    // 5 - 8 
+    //     el primero es menor
+    // 11 - 2
+    //     el primero es mayor
+    // a == b
+    //     Tenemos como resultado el primer numero es menor ya que no hay un caso
+    //     para cuando los numeros son iguales
 }
