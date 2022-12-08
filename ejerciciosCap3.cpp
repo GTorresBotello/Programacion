@@ -6,16 +6,14 @@ void ejercicio2a();
 void ejercicio2b();
 void ejercicio2c();
 void ejercicio2d();
-void nestedIf ();
 void ejercicio3();
 
 int main()
 {
-    //ejercicio2a();
-    //ejercicio2b();
-    //ejercicio2c();
-    //ejercicio2d();
-    //nestedIf ();
+    ejercicio2a();
+    ejercicio2b();
+    ejercicio2c();
+    ejercicio2d();
     ejercicio3();
 
     return 0;
@@ -90,30 +88,7 @@ void ejercicio2d()
 
 }
 
-void nestedIf ()
-{
-    char grado;
-    int peso, bin, t, s, a;
-    
-    cout << "\nIngrese el valor para grado : ";
-    cin >> grado;
-
-    cout << grado;
-
-    if (grado == 'A')
-	if (peso > 35){
-	    bin = 1;
-	    t = s + a;
-	}
-
-    int suma = 0, conteo, fallo;
-
-    if (conteo < 5)
-	if (grado < 50)
-	    fallo = fallo + 1;
-}
-
-void ejercicio3()
+ void ejercicio3()
 {
     
     int a, b;
