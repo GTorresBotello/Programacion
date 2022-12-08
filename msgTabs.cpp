@@ -1,6 +1,6 @@
 #include <iostream>
 
-using std::cout;
+using namespace std;
 
 void funcion6();
 void funcion7();
